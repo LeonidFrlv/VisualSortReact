@@ -1,0 +1,24 @@
+.select_sort_type {
+    font-size: 20px;
+}
+
+.start_btn {
+    font-size: 30px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    color: var(--calm_item);
+    background: var(--calm_background);
+    cursor: pointer;
+}
+
+.start_btn:hover {
+    color: var(--in_progress_item);
+    background: var(--in_progress_background);
+}
+
+.start_btn:disabled {
+    cursor: default;
+    color: var(--in_progress_item);
+    background: var(--in_progress_background);
+}
